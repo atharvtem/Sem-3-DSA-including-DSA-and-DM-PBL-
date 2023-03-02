@@ -1,0 +1,32 @@
+String Operations:
+
+strcat()
+	it takes two arguments and it concatemates the two string in arguments
+{
+	dest[50]="This is "
+	src[50]="an example'
+	strcat(dest,src) -> "This is an example"
+}
+
+strncat()
+	it doesn't append characters more than n
+
+strchr()
+	finds the first occurrence of a character in a string
+
+strcmp()
+	it compares two strings
+
+strncmp()
+	compares first n characters of the two strings
+
+strcpy()
+	it is used to copy one string in another
+
+strncpy()
+	it copies n characters in string
+
+strlen()
+	it is used to find length of the string
+
+
